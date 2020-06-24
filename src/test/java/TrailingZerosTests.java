@@ -6,7 +6,7 @@ public class TrailingZerosTests {
     private final TrailingZeros trailingZeros = new TrailingZeros();
 
     @Test
-    void aplusbTest() {
+    void trailingZerosTest() {
         assertEquals(2, trailingZeros.trailingZeros(11));
         assertEquals(1, trailingZeros.trailingZeros(5));
     }

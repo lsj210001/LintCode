@@ -5,7 +5,7 @@ public class APlusBTests {
     private final APlusB aPlusB = new APlusB();
 
     @Test
-    void trailingZerosTest() {
+    void aplusbTest() {
         assertEquals(3, aPlusB.aplusb(1, 2));
     }
 }
